@@ -1,0 +1,48 @@
+Arguments: 
+  /usr/local/Cellar/node/19.6.0/bin/node /Users/gerrings/.yarn/bin/yarn.js
+
+PATH: 
+  /Users/gerrings/.yarn/bin:/Users/gerrings/.config/yarn/global/node_modules/.bin:/Users/gerrings/.cargo/bin:/Users/gerrings/go/bin:/Users/gerrings/bin:/Users/gerrings/.rvm/gems/ruby-3.0.0/bin:/Users/gerrings/.rvm/gems/ruby-3.0.0@global/bin:/Users/gerrings/.rvm/rubies/ruby-3.0.0/bin:/usr/local/opt/openjdk/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/gerrings/.rvm/gems/ruby-3.0.0/bin:/Users/gerrings/.rvm/gems/ruby-3.0.0@global/bin:/Users/gerrings/.rvm/rubies/ruby-3.0.0/bin:/Users/gerrings/.sdkman/candidates/mvnd/current/bin:/Users/gerrings/.yarn/bin:/Users/gerrings/.config/yarn/global/node_modules/.bin:/Users/gerrings/.cargo/bin:/Users/gerrings/go/bin:/Users/gerrings/bin:/Users/gerrings/.oh-my-zsh/custom/plugins/jq/bin:/Users/gerrings/.rvm/bin:/Users/gerrings/.rvm/bin:/Users/gerrings/.rvm/bin:/Users/gerrings/.oh-my-zsh/custom/plugins/jq/bin:/Users/gerrings/.rvm/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  19.6.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@pulumi%2fpulumi-aws-apigateway: Not found
+      at params.callback [as _callback] (/Users/gerrings/.yarn/lib/cli.js:66988:18)
+      at self.callback (/Users/gerrings/.yarn/lib/cli.js:140749:22)
+      at Request.emit (node:events:512:28)
+      at Request.<anonymous> (/Users/gerrings/.yarn/lib/cli.js:141721:10)
+      at Request.emit (node:events:512:28)
+      at IncomingMessage.<anonymous> (/Users/gerrings/.yarn/lib/cli.js:141643:12)
+      at Object.onceWrapper (node:events:626:28)
+      at IncomingMessage.emit (node:events:524:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+      "name": "pulumi-ifc",
+      "main": "index.ts",
+      "devDependencies": {
+          "@types/node": "^16"
+      },
+      "dependencies": {
+          "@pulumi/pulumi": "^3.0.0",
+          "@pulumi/pulumi-aws-apigateway": "^3.0.0",
+          "@pulumi/aws": "^5.0.0",
+          "@pulumi/awsx": "^1.0.0"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
